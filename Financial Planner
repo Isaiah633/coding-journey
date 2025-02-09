@@ -1,4 +1,4 @@
-#Overview
+#*Overview
 
 I created a process to assist individuals and businesses with financial planning and budgeting. 
 My goal was to create an easy to follow, duplicatable process to organize income and expenses in order to help individuals and businesses looking to develop a plan. 
@@ -6,7 +6,7 @@ This project provides a structured, repeatable process for organizing income and
 The workflow involves extracting financial data, transforming it using SQL, and visualizing insights in Google Looker Studio.
 
 
-#Walkthrough
+#*Walkthrough
 
 The first step is downloading bank and credit card statements in CSV format. Next the statements are uploaded to BigQuery as new data tables. 
 Using SQL, the Date, Description, and Amount columns of the transactions from the various Data Tables from different banks and credit cards are merged together as one table using UNION ALL, and a new colum is created to identify the source of the data. 
@@ -199,6 +199,6 @@ FROM breakdown;
 
 #Graphs and visuals of the data from Looker Studio
 
-![UNADJUSTEDNONRAW_thumb_e](https://github.com/user-attachments/assets/552bef05-ffaf-4217-bbbd-8b72be88c44a)
+
 
 
