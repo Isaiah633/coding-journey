@@ -201,4 +201,4 @@
     END
     AS Category 
  FROM
-    `steam-idiom.amex.NEW` 
+    unified_transactions
